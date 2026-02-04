@@ -1,2 +1,1 @@
-# MyDotfiles
-My Linux dotfiles
+# My Linux dotfiles
