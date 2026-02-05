@@ -1,0 +1,228 @@
+<snippet>
+	<content><![CDATA[
+namespace NumberTheory {
+	using ull = unsigned long long;
+	using u128 = __uint128_t;
+	using i128 = __int128_t;
+
+	// --- 底层引擎：修复了溢出风险的 Barrett 与 Montgomery ---
+	struct Barrett {
+		ull m, f;
+		Barrett(ull n) : m(n) {
+			f = (n <= 1) ? 0 : (ull)((u128(1) << 64) / n);
+		}
+		inline ull reduce(u128 a) const {
+			if (m <= 1) return 0;
+			ull q = (ull)((u128(a >> 64) * f) + ((u128(ull(a)) * f) >> 64));
+			ull r = (ull)a - q * m;
+			while (r >= m) r -= m;
+			return r;
+		}
+	};
+
+	struct Mont {
+		ull m, inv, r2;
+		Mont(ull n) : m(n) {
+			inv = n;
+			for (int i = 0; i < 5; ++i) inv *= 2 - n * inv;
+			r2 = (u128(0) - n) % n;
+		}
+		inline ull reduce(u128 x) const {
+			ull y = (ull)(x >> 64) - (ull)((u128(ull(x) * inv) * m) >> 64);
+			return (long long)y < 0 ? y + m : y;
+		}
+		inline ull init(ull x) const { return reduce((u128)x * r2); }
+	};
+
+	// --- 基础数学工具 ---
+	template<typename T>
+	inline T gcd(T a, T b) {
+		if (!a || !b) return a | b;
+		int s = __builtin_ctzll((ull)a | (ull)b);
+		a >>= __builtin_ctzll((ull)a);
+		while (b) {
+			b >>= __builtin_ctzll((ull)b);
+			if (a > b) std::swap(a, b);
+			b -= a;
+		}
+		return (T)(a << s);
+	}
+
+	template<typename T>
+	T qpow(T a, long long b, T p) {
+		if (p <= 1) return 0;
+		Barrett br((ull)p);
+		ull res = br.reduce(1), base = br.reduce(a);
+		while (b) {
+			if (b & 1) res = br.reduce((u128)res * base);
+			base = br.reduce((u128)base * base);
+			b >>= 1;
+		}
+		return (T)res;
+	}
+
+	template<typename T>
+	T exgcd(T a, T b, T &x, T &y) {
+		if (!b) { x = 1; y = 0; return a; }
+		T d = exgcd(b, a % b, y, x);
+		y -= a / b * x;
+		return d;
+	}
+
+	// --- 哈希优化 (防止 BSGS 被卡) ---
+	struct custom_hash {
+		size_t operator()(ull x) const {
+			static const ull FIXED_RANDOM = std::chrono::steady_clock::now().time_since_epoch().count();
+			x += 0x9e3779b97f4a7c15 + FIXED_RANDOM;
+			x = (x ^ (x >> 30)) * 0xbf58476d1ce4e5b9;
+			x = (x ^ (x >> 27)) * 0x94d049bb133111eb;
+			return x ^ (x >> 31);
+		}
+	};
+
+	// --- 扩展 BSGS: 求解 a^x ≡ b (mod p)，支持 gcd(a, p) > 1 ---
+	template<typename T>
+	T bsgs(T a, T b, T p) {
+		a %= p;
+		b %= p;
+		if (b == 1 || p == 1) { return 0; }
+		T g, L = 0, ad = 1;
+		while ((g = gcd(a, p)) != 1) {
+			if (b % g) {
+				return -1;
+			}
+			b /= g;
+			p /= g;
+			ad = (i128)ad * (a / g) % p;
+			L++;
+			if (ad == b) { return L; }
+		}
+		std::unordered_map<T, T, custom_hash> hash;
+		T m = (T)std::sqrt(p) + 1;
+		hash.reserve(m);
+		T cur = b;
+		for (T j = 0; j < m; ++j) {
+			hash[cur] = j;
+			cur = (i128)cur * a % p;
+		}
+		T am = qpow(a, m, p);
+		T now = ad;
+		for (T i = 1; i <= m + 1; ++i) {
+			now = (i128)now * am % p;
+			if (hash.count(now)) { return i * m - hash[now] + L; }
+		}
+		return -1;
+	}
+
+	// --- 素性测试与分解 ---
+	template<typename T>
+	bool miller_rabin(T n) {
+		if (n < 3 || n % 2 == 0) return n == 2;
+		ull u = (ull)n - 1; int t = __builtin_ctzll(u); u >>= t;
+		Mont mg((ull)n); ull one = mg.init(1), n_1 = mg.init((ull)n - 1);
+		for (ull a : {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37}) {
+			if ((ull)n <= a) break;
+			ull v = one, base = mg.init(a), e = u;
+			while (e) {
+				if (e & 1) v = mg.reduce((u128)v * base);
+				base = mg.reduce((u128)base * base); e >>= 1;
+			}
+			if (v == one || v == n_1) continue;
+			bool comp = true;
+			for (int s = 1; s < t; ++s) {
+				v = mg.reduce((u128)v * v);
+				if (v == n_1) { comp = false; break; }
+			}
+			if (comp) return false;
+		}
+		return true;
+	}
+
+	template<typename T>
+	T pollard_rho(T n) {
+		if (n % 2 == 0) return 2;
+		if (miller_rabin(n)) return n;
+		Mont mg((ull)n);
+		auto f = [&](ull x, ull c) { return mg.reduce((u128)x * x + c); };
+		static std::mt19937_64 rng(time(0));
+		ull x = 0, y = 0, c = mg.init(rng() % (n - 1) + 1), g = 1, r = 1, q = 1, ys = 0;
+		while (g == 1) {
+			x = y; for (int i = 0; i < (int)r; ++i) y = f(y, c);
+			ull k = 0;
+			while (k < r && g == 1) {
+				ys = y;
+				for (int i = 0; i < (int)std::min(128ULL, r - k); ++i) {
+					y = f(y, c);
+					q = mg.reduce((u128)q * (x > y ? x - y : y - x));
+				}
+				g = gcd(q, (ull)n); k += 128;
+			}
+			r <<= 1;
+		}
+		if (g == (ull)n) {
+			do { ys = f(ys, c); g = gcd(x > ys ? x - ys : ys - x, (ull)n); } while (g == 1);
+		}
+		return (g == (ull)n) ? pollard_rho(n) : (T)g;
+	}
+
+	template<typename T>
+	void _fac(T n, std::map<T, int>& m) {
+		if (n < 2) return;
+		if (miller_rabin(n)) { m[n]++; return; }
+		T d = pollard_rho(n); _fac(d, m); _fac(n / d, m);
+	}
+	template<typename T>
+	std::map<T, int> get_factors(T n) { std::map<T, int> m; _fac(n, m); return m; }
+
+	// --- 二次剩余与原根 ---
+	template<typename T>
+	T cipolla(T n, T p) {
+		if (p <= 1) return -1;
+		n %= p; if (n < 0) n += p;
+		if (n == 0) return 0;
+		if (p == 2) return n;
+		if (qpow(n, (long long)(p - 1) / 2, p) == p - 1) return -1;
+		Mont mg((ull)p);
+		ull a, w_mont, n_mont = mg.init(n);
+		static std::mt19937_64 rng(1314521);
+		while (true) {
+			ull a_val = rng() % (p - 1) + 1; ull a_m = mg.init(a_val);
+			ull aa_m = mg.reduce((u128)a_m * a_m);
+			w_mont = (aa_m >= n_mont) ? aa_m - n_mont : aa_m + p - n_mont;
+			if (qpow((T)mg.reduce(w_mont), (long long)(p - 1) / 2, p) == p - 1) { a = a_m; break; }
+		}
+		auto mul = [&](std::pair<ull, ull> x, std::pair<ull, ull> y) {
+			ull x1y1 = mg.reduce((u128)x.first * y.first), x2y2w = mg.reduce((u128)mg.reduce((u128)x.second * y.second) * w_mont);
+			ull x1y2 = mg.reduce((u128)x.first * y.second), x2y1 = mg.reduce((u128)x.second * y.first);
+			ull r = x1y1 + x2y2w; if (r >= (ull)p) r -= p;
+			ull i = x1y2 + x2y1; if (i >= (ull)p) i -= p;
+			return std::make_pair(r, i);
+		};
+		std::pair<ull, ull> res = {mg.init(1), 0}, base = {a, mg.init(1)};
+		for (T b = (p + 1) / 2; b; b >>= 1) { if (b & 1) res = mul(res, base); base = mul(base, base); }
+		T ans = (T)mg.reduce(res.first); return std::min(ans, (T)p - ans);
+	}
+
+	template<typename T>
+	T get_root(T p) {
+		if (p == 2) return 1;
+		T phi = p - 1;
+		std::map<T, int> facs = get_factors(phi);
+		for (T g = 2; g < p; ++g) {
+			bool ok = true;
+			for (auto const& [f, count] : facs) {
+				if (qpow(g, (long long)phi / f, p) == 1) { ok = false; break; }
+			}
+			if (ok) return g;
+		}
+		return -1;
+	}
+}
+
+using namespace NumberTheory;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>_NumberTheory_</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

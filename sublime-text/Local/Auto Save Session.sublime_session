@@ -1,15 +1,38 @@
 {
 	"file_history":
 	[
-		"/home/ant319/.config/fontconfig/fonts.conf"
+		"/home/user/Mine/Code/test.out",
+		"/home/user/Mine/Code/test.in",
+		"/home/user/Mine/Code/code0.cpp",
+		"/home/user/.ssh/id_ed25519.pub",
+		"/home/user/.zshrc",
+		"/home/user/.ssh/id_rsa.pub",
+		"/home/user/.config/fontconfig/fonts.conf",
+		"/home/user/Mine/tmp.txt",
+		"/home/user/.local/share/fcitx5/rime/build/rime_ice.schema.yaml",
+		"/home/user/.local/share/fcitx5/rime/rime_ice.custom.yaml",
+		"/etc/environment",
+		"/home/user/.config/fontconfig/conf.d/50-user-fonts.conf",
+		"/home/user/Code/test.out",
+		"/home/user/Code/code0.cpp",
+		"/home/user/Code/test.in",
+		"/home/user/Code/code0",
+		"/home/user/Desktop/Code/test.in",
+		"/home/user/Desktop/Code/code0.cpp",
+		"/home/user/Desktop/Code/test.out",
+		"/home/user/.config/sublime-text/Packages/User/_NumberTheory_.sublime-snippet",
+		"/home/user/.config/sublime-text/Packages/User/_ModInt_.sublime-snippet"
 	],
 	"folder_history":
 	[
+		"/home/user/workspace/Code",
+		"/home/user/Mine/Code",
+		"/home/user/Code"
 	],
 	"last_version": 4200,
-	"last_window_id": 1,
+	"last_window_id": 3,
 	"log_indexing": false,
-	"next_update_check": 1770264844,
+	"next_update_check": 1770274187,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -30,6 +53,42 @@
 			},
 			"build_system_choices":
 			[
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/User/C++14.sublime-build",
+							""
+						],
+						[
+							"Packages/User/C++14.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/User/C++14.sublime-build",
+							"Run -Debug"
+						],
+						[
+							"Packages/User/C++14.sublime-build",
+							"Run -Interactive"
+						],
+						[
+							"Packages/User/C++14.sublime-build",
+							"Run -Grader"
+						]
+					],
+					[
+						"Packages/User/C++14.sublime-build",
+						"Run"
+					]
+				]
 			],
 			"build_varint": "",
 			"command_palette":
@@ -59,12 +118,31 @@
 			},
 			"file_history":
 			[
-				"/home/ant319/Code/code0.cpp",
-				"/home/ant319/.config/fontconfig/fonts.conf"
+				"/home/user/Mine/Code/test.out",
+				"/home/user/Mine/Code/test.in",
+				"/home/user/Mine/Code/code0.cpp",
+				"/home/user/.ssh/id_ed25519.pub",
+				"/home/user/.zshrc",
+				"/home/user/.ssh/id_rsa.pub",
+				"/home/user/.config/fontconfig/fonts.conf",
+				"/home/user/Mine/tmp.txt",
+				"/home/user/.local/share/fcitx5/rime/build/rime_ice.schema.yaml",
+				"/home/user/.local/share/fcitx5/rime/rime_ice.custom.yaml",
+				"/etc/environment",
+				"/home/user/.config/fontconfig/conf.d/50-user-fonts.conf",
+				"/home/user/Code/test.out",
+				"/home/user/Code/code0.cpp",
+				"/home/user/Code/test.in",
+				"/home/user/Code/code0",
+				"/home/user/Desktop/Code/test.in",
+				"/home/user/Desktop/Code/code0.cpp",
+				"/home/user/Desktop/Code/test.out",
+				"/home/user/.config/sublime-text/Packages/User/_NumberTheory_.sublime-snippet",
+				"/home/user/.config/sublime-text/Packages/User/_ModInt_.sublime-snippet"
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 33.0
 			},
 			"find_in_files":
 			{
@@ -78,6 +156,44 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"cout",
+					"Dinic",
+					"1",
+					"; ",
+					"void",
+					"tot",
+					"n",
+					"INF",
+					"int",
+					"void",
+					"t",
+					", ",
+					"s",
+					"300",
+					"l",
+					"i",
+					"50",
+					"4",
+					"i",
+					"len",
+					"N",
+					"1500",
+					"val",
+					"y",
+					"math",
+					"Latin Modern Math",
+					"Text",
+					"math",
+					"Twemoji",
+					"noto serif",
+					"UI",
+					"SB",
+					"slab",
+					"Sarasa Gothic",
+					"ms",
+					"SC",
+					"TC",
+					"tw"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -96,13 +212,20 @@
 			},
 			"incremental_find":
 			{
-				"height": 0.0
+				"height": 33.0
 			},
 			"input":
 			{
 				"height": 0.0
 			},
 			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 166.0,
+				"history":
+				[
+				]
+			},
 			"output.find_results":
 			{
 				"height": 0.0,
@@ -113,7 +236,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 0.0
+				"height": 62.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -167,18 +290,57 @@
 			"buffers":
 			[
 				{
-					"file": "/home/ant319/Code/code0.cpp",
+					"file": "/home/user/workspace/Code/code0.cpp",
 					"settings":
 					{
-						"buffer_size": 65,
+						"buffer_size": 2542,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
-					}
+					},
+					"undo_stack":
+					[
+					]
 				}
 			],
 			"build_system": "",
 			"build_system_choices":
 			[
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/User/C++14.sublime-build",
+							""
+						],
+						[
+							"Packages/User/C++14.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/User/C++14.sublime-build",
+							"Run -Debug"
+						],
+						[
+							"Packages/User/C++14.sublime-build",
+							"Run -Interactive"
+						],
+						[
+							"Packages/User/C++14.sublime-build",
+							"Run -Grader"
+						]
+					],
+					[
+						"Packages/User/C++14.sublime-build",
+						"Run"
+					]
+				]
 			],
 			"build_varint": "",
 			"command_palette":
@@ -206,13 +368,37 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
+			"expanded_folders":
+			[
+				"/home/user/workspace/Code"
+			],
 			"file_history":
 			[
-				"/home/ant319/.config/fontconfig/fonts.conf"
+				"/home/user/Mine/Code/test.out",
+				"/home/user/Mine/Code/test.in",
+				"/home/user/Mine/Code/code0.cpp",
+				"/home/user/.ssh/id_ed25519.pub",
+				"/home/user/.zshrc",
+				"/home/user/.ssh/id_rsa.pub",
+				"/home/user/.config/fontconfig/fonts.conf",
+				"/home/user/Mine/tmp.txt",
+				"/home/user/.local/share/fcitx5/rime/build/rime_ice.schema.yaml",
+				"/home/user/.local/share/fcitx5/rime/rime_ice.custom.yaml",
+				"/etc/environment",
+				"/home/user/.config/fontconfig/conf.d/50-user-fonts.conf",
+				"/home/user/Code/test.out",
+				"/home/user/Code/code0.cpp",
+				"/home/user/Code/test.in",
+				"/home/user/Code/code0",
+				"/home/user/Desktop/Code/test.in",
+				"/home/user/Desktop/Code/code0.cpp",
+				"/home/user/Desktop/Code/test.out",
+				"/home/user/.config/sublime-text/Packages/User/_NumberTheory_.sublime-snippet",
+				"/home/user/.config/sublime-text/Packages/User/_ModInt_.sublime-snippet"
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 33.0
 			},
 			"find_in_files":
 			{
@@ -242,6 +428,12 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"folders":
+			[
+				{
+					"path": "/home/user/workspace/Code"
+				}
+			],
 			"groups":
 			[
 				{
@@ -249,20 +441,20 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/ant319/Code/code0.cpp",
+							"file": "/home/user/workspace/Code/code0.cpp",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 65,
+								"buffer_size": 2542,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										65,
-										65
+										246,
+										246
 									]
 								],
 								"settings":
@@ -280,11 +472,21 @@
 							"type": "text"
 						}
 					]
+				},
+				{
+					"sheets":
+					[
+					]
+				},
+				{
+					"sheets":
+					[
+					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 0.0
+				"height": 33.0
 			},
 			"input":
 			{
@@ -298,21 +500,42 @@
 						0,
 						0,
 						1,
+						2
+					],
+					[
+						1,
+						0,
+						2,
 						1
+					],
+					[
+						1,
+						1,
+						2,
+						2
 					]
 				],
 				"cols":
 				[
 					0.0,
+					0.75,
 					1.0
 				],
 				"rows":
 				[
 					0.0,
+					0.5,
 					1.0
 				]
 			},
 			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 166.0,
+				"history":
+				[
+				]
+			},
 			"output.find_results":
 			{
 				"height": 0.0,
@@ -321,11 +544,11 @@
 				]
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,1536,881,1536,960,0",
+			"position": "0,1,0,0,0,0,0,1600,821,1600,900,0",
 			"project": "",
 			"replace":
 			{
-				"height": 0.0
+				"height": 62.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -368,7 +591,7 @@
 			"template_settings":
 			{
 			},
-			"window_id": 1,
+			"window_id": 3,
 			"workspace_name": ""
 		}
 	],

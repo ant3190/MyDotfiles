@@ -1,0 +1,74 @@
+<snippet>
+	<content><![CDATA[
+template<const int MOD>
+struct ModInt {
+    unsigned int v;
+ 
+    inline constexpr ModInt() : v(0) {}
+    inline constexpr ModInt(long long _v) {
+        if (_v >= 0) v = static_cast<unsigned int>(_v % MOD);
+        else v = static_cast<unsigned int>((_v % MOD + MOD) % MOD);
+    }
+ 
+    inline constexpr unsigned int val() const { return v; }
+ 
+    inline explicit operator bool() const { return v != 0; }
+    inline bool operator!() const { return v == 0; }
+ 
+    inline ModInt& operator++() { v++; if (v == MOD) v = 0; return *this; }
+    inline ModInt& operator--() { if (v == 0) v = MOD; v--; return *this; }
+    inline ModInt operator++(int) { ModInt res = *this; ++*this; return res; }
+    inline ModInt operator--(int) { ModInt res = *this; --*this; return res; }
+ 
+    inline ModInt& operator+=(const ModInt& o) {
+        v += o.v;
+        if (v >= MOD) v -= MOD;
+        return *this;
+    }
+    inline ModInt& operator-=(const ModInt& o) {
+        if (v < o.v) v += MOD;
+        v -= o.v;
+        return *this;
+    }
+ 
+    inline ModInt& operator*=(const ModInt& o) {
+        v = static_cast<unsigned int>(1ULL * v * o.v % MOD);
+        return *this;
+    }
+ 
+    inline ModInt pow(long long n) const {
+        ModInt res = 1, a = *this;
+        while (n > 0) {
+            if (n & 1) res *= a;
+            a *= a;
+            n >>= 1;
+        }
+        return res;
+    }
+ 
+    inline ModInt inv() const { return pow(MOD - 2); }
+    inline ModInt& operator/=(const ModInt& o) { return *this *= o.inv(); }
+ 
+    friend inline constexpr ModInt operator+(ModInt a, const ModInt& b) { return a += b; }
+    friend inline constexpr ModInt operator-(ModInt a, const ModInt& b) { return a -= b; }
+    friend inline constexpr ModInt operator*(ModInt a, const ModInt& b) { return a *= b; }
+    friend inline constexpr ModInt operator/(ModInt a, const ModInt& b) { return a /= b; }
+ 
+    inline constexpr bool operator==(const ModInt& o) const { return v == o.v; }
+    inline constexpr bool operator!=(const ModInt& o) const { return v != o.v; }
+ 
+    friend inline std::ostream& operator<<(std::ostream& os, const ModInt& m) { return os << m.v; }
+    friend inline std::istream& operator>>(std::istream& is, ModInt& m) {
+        long long x; is >> x;
+        m = ModInt(x);
+        return is;
+    }
+};
+ 
+using mint = ModInt<(int)1e9 + 7>;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>_ModInt_</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

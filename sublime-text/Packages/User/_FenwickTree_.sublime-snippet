@@ -1,0 +1,44 @@
+<snippet>
+	<content><![CDATA[
+template<typename T>
+struct FenwickTree {
+	int n;
+	vector<T> tree;
+
+	inline void init(int _n) {
+		n = _n;
+		tree = vector<T>(_n + 1, T());
+	}
+
+	inline void add(int pos, T val) {
+		for (; pos <= n; pos += (pos & -pos)) {
+			tree[pos] += val;
+		}
+	}
+	inline void reset(int pos) {
+		for (; pos <= n; pos += (pos & -pos)) {
+			tree[pos] = 0;
+		}
+	}
+	inline T query(int pos) const {
+		T res = T();
+		for (; pos > 0; pos &= (pos - 1)) {
+			res += tree[pos];
+		}
+		return res;
+	}
+	inline T query(int l, int r) const {
+		if (l > r) return T;
+		return query(r) - query(l - 1);
+	}
+
+	inline void clear() {
+		fill(tree.begin(), tree.end(), T());
+	}
+};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>_FenwickTree_</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

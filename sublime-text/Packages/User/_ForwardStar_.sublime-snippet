@@ -1,0 +1,48 @@
+<snippet>
+	<content><![CDATA[
+template<typename T, const int _N, const int _M>
+struct ForwardStar {
+	int head[_N];
+	int nxt[_M];
+	T val[_M];
+	int edc = -1;
+
+	inline void clear(int n) {
+		memset(head, -1, sizeof(int) * (n + 1));
+		edc = -1;
+	}
+
+	inline void reset(int pos) {
+		head[pos] = -1;
+	}
+
+	inline void add(int x, T y) {
+		++edc;
+		val[edc] = y;
+		nxt[edc] = head[x];
+		head[x] = edc;
+	}
+
+	struct Iter {
+		int i;
+		const ForwardStar& g;
+		inline void operator++() { i = g.nxt[i]; }
+		inline bool operator!=(const Iter& o) const { return i != o.i; }
+		inline T operator*() const { return g.val[i]; }
+	};
+
+	struct Range {
+		int u;
+		const ForwardStar& g;
+		inline Iter begin() const { return {g.head[u], g}; }
+		inline Iter end() const { return {0, g}; }
+	};
+
+	inline Range operator[](int u) const { return {u, *this}; }
+};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>_ForwardStar_</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
