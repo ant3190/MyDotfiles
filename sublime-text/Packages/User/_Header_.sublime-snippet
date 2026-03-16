@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
 #include <bits/stdc++.h>
-//#define FILE ""
 #define INF 0x3f3f3f3f
 #define INF_LL 0x3f3f3f3f3f3f3f3f
 #define scanf(...) assert(scanf(__VA_ARGS__))
@@ -18,9 +17,6 @@ int main() {
 #ifdef LOCAL
 	assert(freopen("test.in", "r", stdin));
 	assert(freopen("test.out", "w", stdout));
-#elif defined(FILE)
-	assert(freopen(FILE".in", "r", stdin));
-	assert(freopen(FILE".out", "w", stdout));
 #endif
 
 	return 0;
