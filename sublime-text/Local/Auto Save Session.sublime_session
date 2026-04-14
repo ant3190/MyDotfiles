@@ -1,23 +1,153 @@
 {
 	"file_history":
 	[
+		"/home/user/workspace/zhzx-xiayang/copy/copy.in",
+		"/home/user/workspace/zhzx-xiayang/copy/copy.out",
+		"/home/user/workspace/zhzx-xiayang/copy/copy.cpp",
+		"/home/user/workspace/zhzx-xiayang/dream/dream.out",
+		"/home/user/workspace/zhzx-xiayang/dream/dream.in",
+		"/home/user/workspace/zhzx-xiayang/dream/dream.cpp",
+		"/home/user/workspace/zhzx-xiayang/dream/BF.cpp",
+		"/home/user/.zshrc",
+		"/home/user/workspace/zhzx-xiayang/chance/chance.out",
+		"/home/user/workspace/zhzx-xiayang/chance/chance.in",
+		"/home/user/workspace/zhzx-xiayang/chance/chance.cpp",
+		"/home/user/workspace/Code/test.ans",
 		"/home/user/workspace/Code/test.out",
 		"/home/user/workspace/Code/test.in",
 		"/home/user/workspace/Code/code0.cpp",
-		"/home/user/.ssh/id_ed25519.pub",
-		"/home/user/Downloads/install.sh",
-		"/home/user/.local/share/icons/Qogir/index.theme",
-		"/etc/lightdm/lightdm.conf"
+		"/home/user/workspace/solutions/26-04-09/QOJ9729.md",
+		"/home/user/workspace/Code/code1.cpp",
+		"/home/user/Downloads/CF2172L.cpp",
+		"/home/user/workspace/solutions/26-04-06/QOJ17715.md",
+		"/home/user/.config/sublime-text/Packages/User/_SolutionHeader_.sublime-snippet",
+		"/home/user/.config/sublime-text/Packages/User/_Contest_.sublime-snippet",
+		"/home/user/.config/sublime-text/Packages/User/_FastIO_.sublime-snippet",
+		"/home/user/.config/sublime-text/Packages/User/_Header_.sublime-snippet",
+		"/home/user/workspace/Code/tmp.html",
+		"/home/user/workspace/solutions/26-04-09/AGC023E.md",
+		"/home/user/workspace/solutions/26-04-09/P4709.md",
+		"/home/user/workspace/Code/gen.cpp",
+		"/home/user/workspace/Code/checker.cpp",
+		"/home/user/workspace/solutions/26-04-09/P8421.md",
+		"/home/user/Downloads/examples/burger1.in",
+		"/home/user/workspace/solutions/26-04-08/P11824.md",
+		"/home/user/workspace/solutions/26-04-08/CF1336E2.md",
+		"/home/user/projects/hexo-engine/source/css/custom.css",
+		"/home/user/projects/hexo-engine/_config.fluid.yml",
+		"/home/user/projects/hexo-engine/_config.yml",
+		"/home/user/projects/hexo-engine/source/_posts/test.md",
+		"/home/user/projects/hexo-engine/source/css",
+		"/home/user/projects/hexo-engine/source/about/index.md",
+		"/home/user/projects/hexo-engine/source/_posts/chichi.md",
+		"/home/user/projects/hexo-engine/source/categories/index.md",
+		"/home/user/projects/Problems/SOJ/2520/P3/lib.txt",
+		"/home/user/projects/SlayTheSpire-AI/index.html",
+		"/home/user/projects/OI-tracker/src/components/SolutionModal.jsx",
+		"/home/user/pro",
+		"/home/user/Downloads/example/ex_tree1.out",
+		"/home/user/workspace/solutions/26-04-08/260331C.md",
+		"/home/user/workspace/solutions/26-04-07/260407B.md",
+		"/home/user/workspace/Code/tmp.txt",
+		"/home/user/Downloads/examples/tree5.in",
+		"/home/user/Downloads/examples/tree4.in",
+		"/home/user/Downloads/examples/tree3.in",
+		"/home/user/projects/OI-tracker/src/App.css",
+		"/home/user/Downloads/example/ex_tree1.in",
+		"/home/user/workspace/zhzx-xiayang/xor/ex_xor6.out",
+		"/home/user/workspace/solutions/26-04-07/P9293.md",
+		"/home/user/workspace/solutions/26-04-07/260407A.md",
+		"/home/user/workspace/zhzx-xiayang/xor/xor.out",
+		"/home/user/workspace/zhzx-xiayang/xor/xor.in",
+		"/home/user/workspace/zhzx-xiayang/xor/xor.cpp",
+		"/home/user/projects/OI-tracker/src/solutions/26-04-07/chihci.md",
+		"/home/user/Downloads/subtask.conf",
+		"/home/user/workspace/zhzx-xiayang/sequence/BF.cpp",
+		"/home/user/workspace/zhzx-xiayang/sequence/sequence.ans",
+		"/home/user/workspace/zhzx-xiayang/sequence/sequence.out",
+		"/home/user/workspace/zhzx-xiayang/sequence/sequence.in",
+		"/home/user/workspace/zhzx-xiayang/sequence/sequence.cpp",
+		"/home/user/workspace/zhzx-xiayang/xor/ex_xor5.out",
+		"/home/user/workspace/zhzx-xiayang/xor/ex_xor4.out",
+		"/home/user/workspace/zhzx-xiayang/xor/BF.cpp",
+		"/home/user/Downloads/Generated File April 07, 2026 - 9_46AM.x-c",
+		"/home/user/workspace/Code/xor.in",
+		"/home/user/workspace/Code/code2.cpp",
+		"/home/user/projects/OI-tracker/src/components/Heatmap.jsx",
+		"/home/user/projects/OI-tracker/src/components/TagFilter.jsx",
+		"/home/user/projects/OI-tracker/src/components/SourceFilter.jsx",
+		"/home/user/projects/OI-tracker/src/components/Timeline.jsx",
+		"/home/user/projects/OI-tracker/src/utils/markdown.js",
+		"/home/user/projects/OI-tracker/src/App.jsx",
+		"/home/user/workspace/solutions/26-04-06/chichi.md",
+		"/home/user/projects/OI-tracker/.gitmodules",
+		"/home/user/workspace/solutions/chichi.md",
+		"/home/user/projects/OI-tracker/src/solutions/26-03-04/chichi.md",
+		"/home/user/projects/OI-tracker/src/ProblemTracker.jsx",
+		"/home/user/projects/OI-tracker/src/solutions/26-03-01/meichichi.md",
+		"/home/user/projects/OI-tracker/src/solutions/2026-03-04/chichi.md",
+		"/home/user/projects/OI-tracker/src/solutions/2026-03-01/meichichi.md",
+		"/home/user/projects/OI-tracker/src/index.css",
+		"/home/user/projects/OI-tracker/vite.config.js",
+		"/home/user/projects/OI-tracker/src/components/Timeline.js",
+		"/home/user/projects/OI-tracker/src/solutions/chichi.md",
+		"/home/user/projects/OI-tracker/src/solutions/meichichi.md",
+		"/home/user/projects/OI-react/ProblemTracker.jsx",
+		"/home/user/workspace/Code/code3.cpp",
+		"/home/user/workspace/zhzx-xiayang/cigle/cigle.cpp",
+		"/home/user/workspace/zhzx-xiayang/sequence/checker.cpp",
+		"/home/user/workspace/zhzx-xiayang/sequence/gen.cpp",
+		"/home/user/workspace/zhzx-xiayang/sequence/std.cpp",
+		"/home/user/projects/Problems/SOJ/2521/lib.txt",
+		"/home/user/workspace/zhzx-xiayang/vacation/vacation.cpp",
+		"/home/user/Downloads/2-18.out",
+		"/home/user/Downloads/std.cpp",
+		"/home/user/Downloads/2-18.in",
+		"/home/user/Downloads/2-19.out",
+		"/home/user/Downloads/2-19.in",
+		"/home/user/Downloads/2-20.in",
+		"/home/user/Downloads/2-11.in",
+		"/home/user/Downloads/2-10.in",
+		"/home/user/Downloads/1-3.in",
+		"/home/user/workspace/zhzx-xiayang/cigle/cigle.out",
+		"/home/user/workspace/zhzx-xiayang/cigle/cigle.in",
+		"/home/user/workspace/zhzx-xiayang/vacation/vacation.out",
+		"/home/user/workspace/zhzx-xiayang/vacation/vacation.in",
+		"/home/user/Downloads/roguelite/CODELIST.md",
+		"/home/user/Downloads/P11150_1.out",
+		"/home/user/Downloads/P11150_1.in",
+		"/home/user/workspace/Code/chichi.py",
+		"/home/user/projects/Contest/SAFDC #4/std/T1.cpp",
+		"/home/user/projects/Contest/SAFDC #4/std/T2.cpp",
+		"/home/user/projects/Problems/SOJ/2520/P1/ex_sequence1.out",
+		"/home/user/projects/Problems/SOJ/2521/ZHY.txt",
+		"/home/user/projects/Problems/SOJ/2521/YYZ.txt",
+		"/home/user/workspace/zhzx-xiayang/burger/burger.cpp",
+		"/home/user/projects/Problems/SOJ/2521/SG.txt",
+		"/home/user/workspace/zhzx-xiayang/burger/burger.out",
+		"/home/user/workspace/zhzx-xiayang/burger/burger.in",
+		"/home/user/projects/Problems/SOJ/2521/code.py",
+		"/home/user/workspace/zhzx-xiayang/tree/tree.out",
+		"/home/user/workspace/zhzx-xiayang/tree/tree.in"
 	],
 	"folder_history":
 	[
+		"/home/user/projects",
+		"/home/user/projects/hexo-engine",
+		"/home/user/workspace",
+		"/home/user/projects/Problems/SOJ/2523",
+		"/home/user/projects/Problems/SOJ/2520",
+		"/home/user/Downloads/down",
+		"/home/user/projects/Problems/SOJ/2520/P1",
+		"/home/user/projects/Problems/SOJ",
+		"/home/user/projects/SlayTheSpire-AI",
 		"/home/user/.config/sublime-text",
 		"/home/user/workspace/Code"
 	],
 	"last_version": 4200,
-	"last_window_id": 3,
+	"last_window_id": 18,
 	"log_indexing": false,
-	"next_update_check": 1773706118,
+	"next_update_check": 1776208423,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -34,12 +164,96 @@
 			{
 				"selected_items":
 				[
+					[
+						"con",
+						"_Contest_\t_Contest_"
+					],
+					[
+						"s",
+						"system"
+					]
 				]
 			},
 			"build_system_choices":
 			[
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/User/C++14.sublime-build",
+							""
+						],
+						[
+							"Packages/User/C++14.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/User/C++14.sublime-build",
+							"Run -Debug"
+						],
+						[
+							"Packages/User/C++14.sublime-build",
+							"Run -Interactive"
+						],
+						[
+							"Packages/User/C++14.sublime-build",
+							"Run -Grader"
+						],
+						[
+							"Packages/User/C++17.sublime-build",
+							""
+						],
+						[
+							"Packages/User/C++17.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/User/C++17.sublime-build",
+							"Run -Debug"
+						],
+						[
+							"Packages/User/C++17.sublime-build",
+							"Run -Interactive"
+						],
+						[
+							"Packages/User/C++17.sublime-build",
+							"Run -Grader"
+						],
+						[
+							"Packages/User/C++20.sublime-build",
+							""
+						],
+						[
+							"Packages/User/C++20.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/User/C++20.sublime-build",
+							"Run -Debug"
+						],
+						[
+							"Packages/User/C++20.sublime-build",
+							"Run -Interactive"
+						],
+						[
+							"Packages/User/C++20.sublime-build",
+							"Run -Grader"
+						]
+					],
+					[
+						"Packages/User/C++14.sublime-build",
+						"Run -Debug"
+					]
+				]
 			],
-			"build_varint": "",
+			"build_varint": "Run -Debug",
 			"command_palette":
 			{
 				"height": 0.0,
@@ -67,17 +281,138 @@
 			},
 			"file_history":
 			[
+				"/home/user/workspace/zhzx-xiayang/dream/dream.out",
+				"/home/user/workspace/zhzx-xiayang/dream/dream.in",
+				"/home/user/workspace/zhzx-xiayang/dream/BF.cpp",
+				"/home/user/.zshrc",
+				"/home/user/workspace/zhzx-xiayang/dream/dream.cpp",
+				"/home/user/workspace/zhzx-xiayang/copy/copy.cpp",
+				"/home/user/workspace/zhzx-xiayang/chance/chance.out",
+				"/home/user/workspace/zhzx-xiayang/chance/chance.in",
+				"/home/user/workspace/zhzx-xiayang/chance/chance.cpp",
+				"/home/user/workspace/zhzx-xiayang/copy/copy.out",
+				"/home/user/workspace/zhzx-xiayang/copy/copy.in",
+				"/home/user/workspace/Code/test.ans",
 				"/home/user/workspace/Code/test.out",
 				"/home/user/workspace/Code/test.in",
 				"/home/user/workspace/Code/code0.cpp",
-				"/home/user/.ssh/id_ed25519.pub",
-				"/home/user/Downloads/install.sh",
-				"/home/user/.local/share/icons/Qogir/index.theme",
-				"/etc/lightdm/lightdm.conf"
+				"/home/user/workspace/solutions/26-04-09/QOJ9729.md",
+				"/home/user/workspace/Code/code1.cpp",
+				"/home/user/Downloads/CF2172L.cpp",
+				"/home/user/workspace/solutions/26-04-06/QOJ17715.md",
+				"/home/user/.config/sublime-text/Packages/User/_SolutionHeader_.sublime-snippet",
+				"/home/user/.config/sublime-text/Packages/User/_Contest_.sublime-snippet",
+				"/home/user/.config/sublime-text/Packages/User/_FastIO_.sublime-snippet",
+				"/home/user/.config/sublime-text/Packages/User/_Header_.sublime-snippet",
+				"/home/user/workspace/Code/tmp.html",
+				"/home/user/workspace/solutions/26-04-09/AGC023E.md",
+				"/home/user/workspace/solutions/26-04-09/P4709.md",
+				"/home/user/workspace/Code/gen.cpp",
+				"/home/user/workspace/Code/checker.cpp",
+				"/home/user/workspace/solutions/26-04-09/P8421.md",
+				"/home/user/Downloads/examples/burger1.in",
+				"/home/user/workspace/solutions/26-04-08/P11824.md",
+				"/home/user/workspace/solutions/26-04-08/CF1336E2.md",
+				"/home/user/pro",
+				"/home/user/Downloads/example/ex_tree1.out",
+				"/home/user/workspace/solutions/26-04-08/260331C.md",
+				"/home/user/workspace/solutions/26-04-07/260407B.md",
+				"/home/user/workspace/Code/tmp.txt",
+				"/home/user/Downloads/examples/tree5.in",
+				"/home/user/Downloads/examples/tree4.in",
+				"/home/user/Downloads/examples/tree3.in",
+				"/home/user/Downloads/example/ex_tree1.in",
+				"/home/user/workspace/zhzx-xiayang/xor/ex_xor6.out",
+				"/home/user/workspace/solutions/26-04-07/P9293.md",
+				"/home/user/workspace/solutions/26-04-07/260407A.md",
+				"/home/user/workspace/zhzx-xiayang/xor/xor.out",
+				"/home/user/workspace/zhzx-xiayang/xor/xor.in",
+				"/home/user/workspace/zhzx-xiayang/xor/xor.cpp",
+				"/home/user/workspace/zhzx-xiayang/sequence/BF.cpp",
+				"/home/user/workspace/zhzx-xiayang/sequence/sequence.ans",
+				"/home/user/workspace/zhzx-xiayang/sequence/sequence.out",
+				"/home/user/workspace/zhzx-xiayang/sequence/sequence.in",
+				"/home/user/workspace/zhzx-xiayang/sequence/sequence.cpp",
+				"/home/user/workspace/zhzx-xiayang/xor/ex_xor5.out",
+				"/home/user/workspace/zhzx-xiayang/xor/ex_xor4.out",
+				"/home/user/workspace/zhzx-xiayang/xor/BF.cpp",
+				"/home/user/Downloads/Generated File April 07, 2026 - 9_46AM.x-c",
+				"/home/user/workspace/Code/xor.in",
+				"/home/user/workspace/Code/code2.cpp",
+				"/home/user/projects/hexo-engine/source/_posts/chichi.md",
+				"/home/user/projects/hexo-engine/_config.fluid.yml",
+				"/home/user/projects/OI-tracker/src/components/Heatmap.jsx",
+				"/home/user/projects/OI-tracker/src/components/SolutionModal.jsx",
+				"/home/user/projects/OI-tracker/src/components/TagFilter.jsx",
+				"/home/user/projects/OI-tracker/src/components/SourceFilter.jsx",
+				"/home/user/projects/OI-tracker/src/components/Timeline.jsx",
+				"/home/user/projects/OI-tracker/src/App.css",
+				"/home/user/projects/OI-tracker/src/utils/markdown.js",
+				"/home/user/projects/OI-tracker/src/App.jsx",
+				"/home/user/workspace/solutions/26-04-06/chichi.md",
+				"/home/user/projects/OI-tracker/.gitmodules",
+				"/home/user/workspace/solutions/chichi.md",
+				"/home/user/projects/OI-tracker/src/solutions/26-03-04/chichi.md",
+				"/home/user/projects/OI-tracker/src/ProblemTracker.jsx",
+				"/home/user/projects/OI-tracker/src/solutions/26-03-01/meichichi.md",
+				"/home/user/projects/OI-tracker/src/solutions/2026-03-04/chichi.md",
+				"/home/user/projects/OI-tracker/src/solutions/2026-03-01/meichichi.md",
+				"/home/user/projects/OI-tracker/src/index.css",
+				"/home/user/projects/OI-tracker/vite.config.js",
+				"/home/user/projects/OI-tracker/src/components/Timeline.js",
+				"/home/user/projects/OI-tracker/src/solutions/chichi.md",
+				"/home/user/projects/OI-tracker/src/solutions/meichichi.md",
+				"/home/user/projects/OI-react/ProblemTracker.jsx",
+				"/home/user/workspace/Code/code3.cpp",
+				"/home/user/workspace/zhzx-xiayang/cigle/cigle.cpp",
+				"/home/user/workspace/zhzx-xiayang/sequence/checker.cpp",
+				"/home/user/workspace/zhzx-xiayang/sequence/gen.cpp",
+				"/home/user/workspace/zhzx-xiayang/sequence/std.cpp",
+				"/home/user/projects/Problems/SOJ/2521/lib.txt",
+				"/home/user/workspace/zhzx-xiayang/vacation/vacation.cpp",
+				"/home/user/Downloads/2-18.out",
+				"/home/user/Downloads/std.cpp",
+				"/home/user/Downloads/2-18.in",
+				"/home/user/Downloads/2-19.out",
+				"/home/user/Downloads/2-19.in",
+				"/home/user/Downloads/2-20.in",
+				"/home/user/Downloads/2-11.in",
+				"/home/user/Downloads/2-10.in",
+				"/home/user/Downloads/1-3.in",
+				"/home/user/workspace/zhzx-xiayang/cigle/cigle.out",
+				"/home/user/workspace/zhzx-xiayang/cigle/cigle.in",
+				"/home/user/workspace/zhzx-xiayang/vacation/vacation.out",
+				"/home/user/workspace/zhzx-xiayang/vacation/vacation.in",
+				"/home/user/Downloads/roguelite/CODELIST.md",
+				"/home/user/Downloads/P11150_1.out",
+				"/home/user/Downloads/P11150_1.in",
+				"/home/user/workspace/Code/chichi.py",
+				"/home/user/projects/Contest/SAFDC #4/std/T1.cpp",
+				"/home/user/projects/Contest/SAFDC #4/std/T2.cpp",
+				"/home/user/projects/Problems/SOJ/2520/P1/ex_sequence1.out",
+				"/home/user/projects/Problems/SOJ/2521/ZHY.txt",
+				"/home/user/projects/Problems/SOJ/2521/YYZ.txt",
+				"/home/user/workspace/zhzx-xiayang/burger/burger.cpp",
+				"/home/user/projects/Problems/SOJ/2521/SG.txt",
+				"/home/user/workspace/zhzx-xiayang/burger/burger.out",
+				"/home/user/workspace/zhzx-xiayang/burger/burger.in",
+				"/home/user/projects/Problems/SOJ/2521/code.py",
+				"/home/user/workspace/zhzx-xiayang/tree/tree.out",
+				"/home/user/workspace/zhzx-xiayang/tree/tree.in",
+				"/home/user/workspace/zhzx-xiayang/burger/BF.cpp",
+				"/home/user/workspace/zhzx-xiayang/tree/tree.cpp",
+				"/home/user/workspace/zhzx-xiayang/tree/tree6.ans",
+				"/home/user/workspace/zhzx-xiayang/tree/tree5.in",
+				"/home/user/workspace/zhzx-xiayang/perm/perm.out",
+				"/home/user/workspace/zhzx-xiayang/perm/perm.in",
+				"/home/user/workspace/zhzx-xiayang/perm/BF.cpp",
+				"/home/user/workspace/zhzx-xiayang/perm/perm.cpp",
+				"/home/user/Downloads/examples/burger5.ans",
+				"/home/user/Downloads/examples/burger4.ans"
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 33.0
 			},
 			"find_in_files":
 			{
@@ -91,6 +426,134 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"res",
+					"] ",
+					"ft",
+					"n",
+					"tg",
+					"tmp",
+					"tag",
+					"tmp",
+					"int",
+					"sum",
+					"int",
+					"test",
+					"val",
+					"test",
+					"num",
+					"test",
+					"sum",
+					"{\n",
+					"hello",
+					"3000",
+					"cur",
+					"0",
+					"mn",
+					";\n",
+					"n",
+					"t",
+					";\n",
+					"势能分析",
+					"数据结构",
+					"len",
+					"k",
+					"m",
+					"1000",
+					"30",
+					"k",
+					"p",
+					"res",
+					"1ll * T * (a[p[i]] - i)",
+					"tr",
+					"tmp",
+					"int",
+					"tr",
+					"lc",
+					"tr",
+					"p",
+					"rk",
+					"k",
+					"tr.",
+					"tr",
+					"pos",
+					"tr",
+					"j",
+					"len",
+					"k",
+					"int",
+					"k",
+					"r",
+					"k",
+					"int",
+					"t",
+					"k",
+					"0",
+					"tr",
+					"tDr",
+					"inline ",
+					"inline",
+					"namespace",
+					"1e5",
+					"b",
+					"res",
+					"len",
+					"res",
+					"i",
+					"<< ",
+					"m",
+					"1",
+					"M",
+					"id",
+					"void",
+					"N",
+					"双指针",
+					"10.9",
+					"u",
+					"30",
+					"tot",
+					"rt",
+					"tag",
+					"p",
+					"tp",
+					"rt",
+					"id",
+					"pushdown",
+					"tp",
+					"val",
+					"upd",
+					"rt",
+					"tag",
+					"val",
+					"max",
+					"data",
+					"fa",
+					"p",
+					"cout",
+					"res",
+					"son[u]",
+					"v",
+					"u",
+					"i",
+					"sum",
+					"end",
+					"p",
+					"tp",
+					"case1",
+					"W",
+					"0",
+					"W",
+					"v",
+					"val",
+					"2600",
+					"动态规划",
+					"res",
+					"v0",
+					"v1",
+					"6",
+					"i",
+					"6",
+					"]);\n",
+					"5"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -109,13 +572,113 @@
 			},
 			"incremental_find":
 			{
-				"height": 0.0
+				"height": 33.0
 			},
 			"input":
 			{
-				"height": 0.0
+				"height": 54.0
 			},
 			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 154.0,
+				"history":
+				[
+					"1",
+					"2",
+					"1",
+					"0",
+					"2",
+					"1",
+					"0",
+					"3",
+					"1",
+					"0",
+					"2",
+					"0",
+					"1",
+					"0",
+					"1",
+					"0",
+					"1",
+					"3",
+					"1",
+					"0",
+					"1",
+					"0",
+					"1",
+					"0",
+					"1",
+					"2",
+					"5",
+					"3",
+					"12",
+					"6",
+					"3",
+					"12",
+					"6",
+					"3",
+					"12",
+					"6",
+					"3",
+					"12",
+					"6",
+					"3",
+					"12",
+					"6",
+					"3",
+					"12",
+					"6",
+					"3",
+					"12",
+					"20",
+					"15",
+					"21",
+					"10",
+					"15",
+					"10",
+					"6",
+					"3",
+					"12",
+					"27",
+					"15",
+					"21",
+					"10",
+					"15",
+					"10",
+					"6",
+					"3",
+					"12",
+					"10",
+					"6",
+					"3",
+					"12",
+					"2",
+					"5",
+					"3",
+					"5",
+					"2",
+					"3",
+					"6",
+					"3",
+					"2",
+					"5",
+					"3",
+					"5",
+					"2",
+					"3",
+					"33",
+					"2",
+					"3",
+					"2",
+					"3",
+					"5",
+					"2",
+					"3",
+					"6",
+					"3"
+				]
+			},
 			"output.find_results":
 			{
 				"height": 0.0,
@@ -126,7 +689,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 0.0
+				"height": 62.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -149,18 +712,18 @@
 			},
 			"select_symbol":
 			{
-				"height": 0.0,
+				"height": 271.0,
 				"last_filter": "",
 				"selected_items":
 				[
 				],
-				"width": 0.0
+				"width": 592.0
 			},
 			"show_minimap": true,
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 197.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
@@ -175,6 +738,14 @@
 			{
 				"selected_items":
 				[
+					[
+						"con",
+						"_Contest_\t_Contest_"
+					],
+					[
+						"s",
+						"system"
+					]
 				]
 			},
 			"buffers":
@@ -183,36 +754,687 @@
 					"file": "/home/user/workspace/Code/code0.cpp",
 					"settings":
 					{
-						"buffer_size": 626,
+						"buffer_size": 2029,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					},
 					"undo_stack":
 					[
+						[
+							34,
+							1,
+							"insert",
+							{
+								"characters": "\nif"
+							},
+							"AwAAAFEHAAAAAAAAVgcAAAAAAAAAAAAAVgcAAAAAAABXBwAAAAAAAAAAAABXBwAAAAAAAFgHAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAUQcAAAAAAABRBwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							35,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAFgHAAAAAAAAWQcAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAWAcAAAAAAABYBwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							36,
+							1,
+							"insert_snippet",
+							{
+								"contents": "($0)"
+							},
+							"AQAAAFkHAAAAAAAAWwcAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAWQcAAAAAAABZBwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							37,
+							1,
+							"insert",
+							{
+								"characters": "x"
+							},
+							"AQAAAFoHAAAAAAAAWwcAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAWgcAAAAAAABaBwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							38,
+							1,
+							"insert_snippet",
+							{
+								"contents": "[$0]"
+							},
+							"AQAAAFsHAAAAAAAAXQcAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAWwcAAAAAAABbBwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							39,
+							1,
+							"insert",
+							{
+								"characters": "i"
+							},
+							"AQAAAFwHAAAAAAAAXQcAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAXAcAAAAAAABcBwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							41,
+							1,
+							"insert",
+							{
+								"characters": " !="
+							},
+							"AwAAAF4HAAAAAAAAXwcAAAAAAAAAAAAAXwcAAAAAAABgBwAAAAAAAAAAAABgBwAAAAAAAGEHAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAXgcAAAAAAABeBwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							42,
+							1,
+							"insert",
+							{
+								"characters": " y"
+							},
+							"AgAAAGEHAAAAAAAAYgcAAAAAAAAAAAAAYgcAAAAAAABjBwAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAYQcAAAAAAABhBwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							43,
+							1,
+							"insert_snippet",
+							{
+								"contents": "[$0]"
+							},
+							"AQAAAGMHAAAAAAAAZQcAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAYwcAAAAAAABjBwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							44,
+							1,
+							"insert",
+							{
+								"characters": "i"
+							},
+							"AQAAAGQHAAAAAAAAZQcAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAZAcAAAAAAABkBwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							46,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAGcHAAAAAAAAaAcAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAZwcAAAAAAABnBwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							47,
+							1,
+							"insert_snippet",
+							{
+								"contents": "{$0}"
+							},
+							"AQAAAGgHAAAAAAAAagcAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAaAcAAAAAAABoBwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							48,
+							1,
+							"run_macro_file",
+							{
+								"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+							},
+							"BAAAAGkHAAAAAAAAbgcAAAAAAAAAAAAAbgcAAAAAAABzBwAAAAAAAAAAAABqBwAAAAAAAGoHAAAAAAAABAAAAAkJCQlqBwAAAAAAAG8HAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAaQcAAAAAAABpBwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							50,
+							1,
+							"swap_line_up",
+							null,
+							"AgAAAHYHAAAAAAAAdgcAAAAAAAAdAAAACQkJCXJlcyA9IG1heChyZXMsIGNhbGMoaSkpOwpwBwAAAAAAAI0HAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAfgcAAAAAAAB+BwAAAAAAAAAAAAAAAGlA"
+						],
+						[
+							52,
+							1,
+							"insert",
+							{
+								"characters": "\t"
+							},
+							"AgAAAHQHAAAAAAAAdQcAAAAAAAAAAAAAagcAAAAAAABqBwAAAAAAAAUAAAAJCQkJCQ",
+							"AQAAAAAAAAABAAAAdAcAAAAAAAB0BwAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							56,
+							1,
+							"left_delete",
+							null,
+							"AQAAAGkHAAAAAAAAaQcAAAAAAAABAAAACg",
+							"AQAAAAAAAAABAAAAagcAAAAAAABpBwAAAAAAAP///////+9/"
+						]
+					]
+				},
+				{
+					"file": "/home/user/workspace/solutions/26-04-14/CF1810G.md",
+					"settings":
+					{
+						"buffer_size": 50,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							1,
+							1,
+							"insert",
+							{
+								"characters": "sol"
+							},
+							"AwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							2,
+							1,
+							"insert_completion",
+							{
+								"completion": "---\ntitle: \"\"\ndifficulty: \"\"\ntags: []\nlink: \"\"\n---",
+								"format": "snippet",
+								"keep_prefix": false,
+								"must_insert": false,
+								"trigger": "_SolutionHeader_"
+							},
+							"AgAAAAAAAAAAAAAAAAAAAAAAAAADAAAAc29sAAAAAAAAAAAyAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAPC/"
+						]
 					]
 				},
 				{
 					"file": "/home/user/workspace/Code/test.in",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 48,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
-					}
+					},
+					"undo_stack":
+					[
+						[
+							5,
+							1,
+							"",
+							null,
+							"AQAAAAAAAAAAAAAAzwEAAAAAAABsAAAAMTEKMSAxMjMxNiAzCjIgNjEwNCAzCjEgNDc5MiAxCjIgMjczNjIgNAoxIDIxOTAyIDEKMiAxMzI4NCAxCjMgODUxMCAzCjQgMTc4NjUgNAoxIDg1NTggMgozIDM2MiAyCjMgMTI4ODcgMwoK",
+							"AQAAAAAAAAABAAAAAAAAAAAAAABsAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							8,
+							1,
+							"insert",
+							{
+								"characters": "3"
+							},
+							"AQAAAAAAAAAAAAAAAQAAAAAAAADOAQAANTYKMSA4MTM3NiAxCjEgNDczNDQgMQoyIDczNDcgMwoyIDczOTkzIDIKNCAyMjUwNiAyCjIgOTE4MjggMgo0IDc2NzkgMwoxIDE5NTY5IDEKNCA2MDg0NSAyCjEgMzI1NTkgNAoxIDY1NDMxIDQKMyA4NTg0MSAyCjIgMjU4MyAxCjIgNjQzNCAzCjEgMTYwMDkgNAozIDk1MjkyIDIKMiA0MjU4NCA0CjEgODUwMTIgMgoxIDM5NTk0IDEKMSAzMzUxNCAxCjQgNDM5NzYgMwozIDY2NDE2IDEKMSA2MDI0MCAxCjIgNDEyNzMgNAoxIDk2NDQ2IDEKMiA1NTQyOCAyCjIgNDg0NDAgNAoxIDI2MjgwIDQKMSA3MjkgMQo0IDc5OTA2IDMKMyA3MjQ0OCAzCjIgNjQ0MTMgMgo0IDYwMDkgMgoxIDMyIDEKMSA1MTk3OSA0CjQgODQ5OTAgMgo0IDI0ODM2IDQKNCAxNzMwNiA0CjEgNDkwOTAgMwoyIDI1MjA5IDEKMyA1MTU1NiAzCjQgOTgwNjEgMwozIDYwOTQ0IDEKMyA5NDYyMiA0CjQgNzcxODkgMQoxIDM0NzgwIDMKMyA1MDE0NyAx",
+							"AQAAAAAAAAABAAAAzgEAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							9,
+							1,
+							"left_delete",
+							null,
+							"AQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAMw",
+							"AQAAAAAAAAABAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							10,
+							1,
+							"insert",
+							{
+								"characters": "4"
+							},
+							"AQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							11,
+							1,
+							"left_delete",
+							null,
+							"AQAAAAAAAAAAAAAAAAAAAAAAAAABAAAANA",
+							"AQAAAAAAAAABAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							12,
+							1,
+							"insert",
+							{
+								"characters": "7"
+							},
+							"AQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							13,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAAAEAAAAAAAAAAgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							14,
+							1,
+							"insert",
+							{
+								"characters": "1"
+							},
+							"AQAAAAIAAAAAAAAAAwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							15,
+							1,
+							"insert",
+							{
+								"characters": " 10"
+							},
+							"AwAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							16,
+							1,
+							"insert",
+							{
+								"characters": " 1"
+							},
+							"AgAAAAYAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAIAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAABgAAAAAAAAAGAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							17,
+							1,
+							"insert",
+							{
+								"characters": "\n2"
+							},
+							"AgAAAAgAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAKAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							18,
+							1,
+							"insert",
+							{
+								"characters": " 10"
+							},
+							"AwAAAAoAAAAAAAAACwAAAAAAAAAAAAAACwAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAAA0AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAACgAAAAAAAAAKAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							19,
+							1,
+							"insert",
+							{
+								"characters": " 2"
+							},
+							"AgAAAA0AAAAAAAAADgAAAAAAAAAAAAAADgAAAAAAAAAPAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAADQAAAAAAAAANAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							20,
+							1,
+							"insert",
+							{
+								"characters": "\n3"
+							},
+							"AgAAAA8AAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAARAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAADwAAAAAAAAAPAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							21,
+							1,
+							"insert",
+							{
+								"characters": " 20"
+							},
+							"AwAAABEAAAAAAAAAEgAAAAAAAAAAAAAAEgAAAAAAAAATAAAAAAAAAAAAAAATAAAAAAAAABQAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAEQAAAAAAAAARAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							22,
+							2,
+							"left_delete",
+							null,
+							"AgAAABMAAAAAAAAAEwAAAAAAAAABAAAAMBIAAAAAAAAAEgAAAAAAAAABAAAAMg",
+							"AQAAAAAAAAABAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							23,
+							1,
+							"insert",
+							{
+								"characters": "10"
+							},
+							"AgAAABIAAAAAAAAAEwAAAAAAAAAAAAAAEwAAAAAAAAAUAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAEgAAAAAAAAASAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							24,
+							1,
+							"insert",
+							{
+								"characters": " 3"
+							},
+							"AgAAABQAAAAAAAAAFQAAAAAAAAAAAAAAFQAAAAAAAAAWAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							25,
+							1,
+							"insert",
+							{
+								"characters": "\n4"
+							},
+							"AgAAABYAAAAAAAAAFwAAAAAAAAAAAAAAFwAAAAAAAAAYAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAFgAAAAAAAAAWAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							26,
+							1,
+							"insert",
+							{
+								"characters": " 10"
+							},
+							"AwAAABgAAAAAAAAAGQAAAAAAAAAAAAAAGQAAAAAAAAAaAAAAAAAAAAAAAAAaAAAAAAAAABsAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							27,
+							1,
+							"insert",
+							{
+								"characters": " 5"
+							},
+							"AgAAABsAAAAAAAAAHAAAAAAAAAAAAAAAHAAAAAAAAAAdAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAGwAAAAAAAAAbAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							28,
+							1,
+							"left_delete",
+							null,
+							"AQAAABwAAAAAAAAAHAAAAAAAAAABAAAANQ",
+							"AQAAAAAAAAABAAAAHQAAAAAAAAAdAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							29,
+							1,
+							"insert",
+							{
+								"characters": "4"
+							},
+							"AQAAABwAAAAAAAAAHQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHAAAAAAAAAAcAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							30,
+							1,
+							"insert",
+							{
+								"characters": "\n5"
+							},
+							"AgAAAB0AAAAAAAAAHgAAAAAAAAAAAAAAHgAAAAAAAAAfAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHQAAAAAAAAAdAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							31,
+							1,
+							"left_delete",
+							null,
+							"AQAAAB4AAAAAAAAAHgAAAAAAAAABAAAANQ",
+							"AQAAAAAAAAABAAAAHwAAAAAAAAAfAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							32,
+							1,
+							"insert",
+							{
+								"characters": "1"
+							},
+							"AQAAAB4AAAAAAAAAHwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHgAAAAAAAAAeAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							33,
+							1,
+							"insert",
+							{
+								"characters": " 1"
+							},
+							"AgAAAB8AAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAhAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHwAAAAAAAAAfAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							34,
+							1,
+							"insert",
+							{
+								"characters": " 2"
+							},
+							"AgAAACEAAAAAAAAAIgAAAAAAAAAAAAAAIgAAAAAAAAAjAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAIQAAAAAAAAAhAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							35,
+							1,
+							"insert",
+							{
+								"characters": "\n1"
+							},
+							"AgAAACMAAAAAAAAAJAAAAAAAAAAAAAAAJAAAAAAAAAAlAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAIwAAAAAAAAAjAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							36,
+							1,
+							"insert",
+							{
+								"characters": " 2"
+							},
+							"AgAAACUAAAAAAAAAJgAAAAAAAAAAAAAAJgAAAAAAAAAnAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAJQAAAAAAAAAlAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							37,
+							1,
+							"left_delete",
+							null,
+							"AQAAACYAAAAAAAAAJgAAAAAAAAABAAAAMg",
+							"AQAAAAAAAAABAAAAJwAAAAAAAAAnAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							38,
+							1,
+							"insert",
+							{
+								"characters": "1"
+							},
+							"AQAAACYAAAAAAAAAJwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAJgAAAAAAAAAmAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							39,
+							1,
+							"insert",
+							{
+								"characters": " 3"
+							},
+							"AgAAACcAAAAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAAAApAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAJwAAAAAAAAAnAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							40,
+							1,
+							"insert",
+							{
+								"characters": "\n1"
+							},
+							"AgAAACkAAAAAAAAAKgAAAAAAAAAAAAAAKgAAAAAAAAArAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAKQAAAAAAAAApAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							41,
+							1,
+							"insert",
+							{
+								"characters": " 1"
+							},
+							"AgAAACsAAAAAAAAALAAAAAAAAAAAAAAALAAAAAAAAAAtAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAKwAAAAAAAAArAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							42,
+							1,
+							"insert",
+							{
+								"characters": " 4"
+							},
+							"AgAAAC0AAAAAAAAALgAAAAAAAAAAAAAALgAAAAAAAAAvAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALQAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
+						]
+					]
 				},
 				{
 					"file": "/home/user/workspace/Code/test.out",
 					"settings":
 					{
-						"buffer_size": 0,
-						"encoding": "UTF-8",
+						"buffer_size": 3,
 						"line_ending": "Unix"
-					}
+					},
+					"undo_stack":
+					[
+						[
+							1,
+							1,
+							"revert",
+							null,
+							"AgAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAMTMzNTgwCgAAAAAAAAAABwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							2,
+							1,
+							"revert",
+							null,
+							"AgAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAMTMzNTgwCgAAAAAAAAAABwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							3,
+							1,
+							"revert",
+							null,
+							"AgAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAMTMzNTgwCgAAAAAAAAAAAwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							4,
+							1,
+							"revert",
+							null,
+							"AgAAAAAAAAAAAAAAAAAAAAAAAAADAAAAMzMKAAAAAAAAAAADAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						]
+					]
 				}
 			],
-			"build_system": "",
+			"build_system": "Packages/User/C++14.sublime-build",
 			"build_system_choices":
 			[
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/User/C++14.sublime-build",
+							""
+						],
+						[
+							"Packages/User/C++14.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/User/C++14.sublime-build",
+							"Run -Debug"
+						],
+						[
+							"Packages/User/C++14.sublime-build",
+							"Run -Interactive"
+						],
+						[
+							"Packages/User/C++14.sublime-build",
+							"Run -Grader"
+						],
+						[
+							"Packages/User/C++17.sublime-build",
+							""
+						],
+						[
+							"Packages/User/C++17.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/User/C++17.sublime-build",
+							"Run -Debug"
+						],
+						[
+							"Packages/User/C++17.sublime-build",
+							"Run -Interactive"
+						],
+						[
+							"Packages/User/C++17.sublime-build",
+							"Run -Grader"
+						],
+						[
+							"Packages/User/C++20.sublime-build",
+							""
+						],
+						[
+							"Packages/User/C++20.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/User/C++20.sublime-build",
+							"Run -Debug"
+						],
+						[
+							"Packages/User/C++20.sublime-build",
+							"Run -Interactive"
+						],
+						[
+							"Packages/User/C++20.sublime-build",
+							"Run -Grader"
+						]
+					],
+					[
+						"Packages/User/C++14.sublime-build",
+						"Run -Debug"
+					]
+				]
 			],
 			"build_varint": "",
 			"command_palette":
@@ -242,21 +1464,144 @@
 			},
 			"expanded_folders":
 			[
-				"/home/user/workspace/Code"
+				"/home/user/workspace",
+				"/home/user/workspace/solutions",
+				"/home/user/workspace/solutions/26-04-14"
 			],
 			"file_history":
 			[
+				"/home/user/workspace/zhzx-xiayang/copy/copy.in",
+				"/home/user/workspace/zhzx-xiayang/copy/copy.out",
+				"/home/user/workspace/zhzx-xiayang/copy/copy.cpp",
+				"/home/user/workspace/zhzx-xiayang/dream/dream.out",
+				"/home/user/workspace/zhzx-xiayang/dream/dream.in",
+				"/home/user/workspace/zhzx-xiayang/dream/dream.cpp",
+				"/home/user/workspace/zhzx-xiayang/dream/BF.cpp",
+				"/home/user/.zshrc",
+				"/home/user/workspace/zhzx-xiayang/chance/chance.out",
+				"/home/user/workspace/zhzx-xiayang/chance/chance.in",
+				"/home/user/workspace/zhzx-xiayang/chance/chance.cpp",
+				"/home/user/workspace/Code/test.ans",
 				"/home/user/workspace/Code/test.out",
 				"/home/user/workspace/Code/test.in",
 				"/home/user/workspace/Code/code0.cpp",
-				"/home/user/.ssh/id_ed25519.pub",
-				"/home/user/Downloads/install.sh",
-				"/home/user/.local/share/icons/Qogir/index.theme",
-				"/etc/lightdm/lightdm.conf"
+				"/home/user/workspace/solutions/26-04-09/QOJ9729.md",
+				"/home/user/workspace/Code/code1.cpp",
+				"/home/user/Downloads/CF2172L.cpp",
+				"/home/user/workspace/solutions/26-04-06/QOJ17715.md",
+				"/home/user/.config/sublime-text/Packages/User/_SolutionHeader_.sublime-snippet",
+				"/home/user/.config/sublime-text/Packages/User/_Contest_.sublime-snippet",
+				"/home/user/.config/sublime-text/Packages/User/_FastIO_.sublime-snippet",
+				"/home/user/.config/sublime-text/Packages/User/_Header_.sublime-snippet",
+				"/home/user/workspace/Code/tmp.html",
+				"/home/user/workspace/solutions/26-04-09/AGC023E.md",
+				"/home/user/workspace/solutions/26-04-09/P4709.md",
+				"/home/user/workspace/Code/gen.cpp",
+				"/home/user/workspace/Code/checker.cpp",
+				"/home/user/workspace/solutions/26-04-09/P8421.md",
+				"/home/user/Downloads/examples/burger1.in",
+				"/home/user/workspace/solutions/26-04-08/P11824.md",
+				"/home/user/workspace/solutions/26-04-08/CF1336E2.md",
+				"/home/user/pro",
+				"/home/user/Downloads/example/ex_tree1.out",
+				"/home/user/workspace/solutions/26-04-08/260331C.md",
+				"/home/user/workspace/solutions/26-04-07/260407B.md",
+				"/home/user/workspace/Code/tmp.txt",
+				"/home/user/Downloads/examples/tree5.in",
+				"/home/user/Downloads/examples/tree4.in",
+				"/home/user/Downloads/examples/tree3.in",
+				"/home/user/Downloads/example/ex_tree1.in",
+				"/home/user/workspace/zhzx-xiayang/xor/ex_xor6.out",
+				"/home/user/workspace/solutions/26-04-07/P9293.md",
+				"/home/user/workspace/solutions/26-04-07/260407A.md",
+				"/home/user/workspace/zhzx-xiayang/xor/xor.out",
+				"/home/user/workspace/zhzx-xiayang/xor/xor.in",
+				"/home/user/workspace/zhzx-xiayang/xor/xor.cpp",
+				"/home/user/workspace/zhzx-xiayang/sequence/BF.cpp",
+				"/home/user/workspace/zhzx-xiayang/sequence/sequence.ans",
+				"/home/user/workspace/zhzx-xiayang/sequence/sequence.out",
+				"/home/user/workspace/zhzx-xiayang/sequence/sequence.in",
+				"/home/user/workspace/zhzx-xiayang/sequence/sequence.cpp",
+				"/home/user/workspace/zhzx-xiayang/xor/ex_xor5.out",
+				"/home/user/workspace/zhzx-xiayang/xor/ex_xor4.out",
+				"/home/user/workspace/zhzx-xiayang/xor/BF.cpp",
+				"/home/user/Downloads/Generated File April 07, 2026 - 9_46AM.x-c",
+				"/home/user/workspace/Code/xor.in",
+				"/home/user/workspace/Code/code2.cpp",
+				"/home/user/projects/hexo-engine/source/_posts/chichi.md",
+				"/home/user/projects/hexo-engine/_config.fluid.yml",
+				"/home/user/projects/OI-tracker/src/components/Heatmap.jsx",
+				"/home/user/projects/OI-tracker/src/components/SolutionModal.jsx",
+				"/home/user/projects/OI-tracker/src/components/TagFilter.jsx",
+				"/home/user/projects/OI-tracker/src/components/SourceFilter.jsx",
+				"/home/user/projects/OI-tracker/src/components/Timeline.jsx",
+				"/home/user/projects/OI-tracker/src/App.css",
+				"/home/user/projects/OI-tracker/src/utils/markdown.js",
+				"/home/user/projects/OI-tracker/src/App.jsx",
+				"/home/user/workspace/solutions/26-04-06/chichi.md",
+				"/home/user/projects/OI-tracker/.gitmodules",
+				"/home/user/workspace/solutions/chichi.md",
+				"/home/user/projects/OI-tracker/src/solutions/26-03-04/chichi.md",
+				"/home/user/projects/OI-tracker/src/ProblemTracker.jsx",
+				"/home/user/projects/OI-tracker/src/solutions/26-03-01/meichichi.md",
+				"/home/user/projects/OI-tracker/src/solutions/2026-03-04/chichi.md",
+				"/home/user/projects/OI-tracker/src/solutions/2026-03-01/meichichi.md",
+				"/home/user/projects/OI-tracker/src/index.css",
+				"/home/user/projects/OI-tracker/vite.config.js",
+				"/home/user/projects/OI-tracker/src/components/Timeline.js",
+				"/home/user/projects/OI-tracker/src/solutions/chichi.md",
+				"/home/user/projects/OI-tracker/src/solutions/meichichi.md",
+				"/home/user/projects/OI-react/ProblemTracker.jsx",
+				"/home/user/workspace/Code/code3.cpp",
+				"/home/user/workspace/zhzx-xiayang/cigle/cigle.cpp",
+				"/home/user/workspace/zhzx-xiayang/sequence/checker.cpp",
+				"/home/user/workspace/zhzx-xiayang/sequence/gen.cpp",
+				"/home/user/workspace/zhzx-xiayang/sequence/std.cpp",
+				"/home/user/projects/Problems/SOJ/2521/lib.txt",
+				"/home/user/workspace/zhzx-xiayang/vacation/vacation.cpp",
+				"/home/user/Downloads/2-18.out",
+				"/home/user/Downloads/std.cpp",
+				"/home/user/Downloads/2-18.in",
+				"/home/user/Downloads/2-19.out",
+				"/home/user/Downloads/2-19.in",
+				"/home/user/Downloads/2-20.in",
+				"/home/user/Downloads/2-11.in",
+				"/home/user/Downloads/2-10.in",
+				"/home/user/Downloads/1-3.in",
+				"/home/user/workspace/zhzx-xiayang/cigle/cigle.out",
+				"/home/user/workspace/zhzx-xiayang/cigle/cigle.in",
+				"/home/user/workspace/zhzx-xiayang/vacation/vacation.out",
+				"/home/user/workspace/zhzx-xiayang/vacation/vacation.in",
+				"/home/user/Downloads/roguelite/CODELIST.md",
+				"/home/user/Downloads/P11150_1.out",
+				"/home/user/Downloads/P11150_1.in",
+				"/home/user/workspace/Code/chichi.py",
+				"/home/user/projects/Contest/SAFDC #4/std/T1.cpp",
+				"/home/user/projects/Contest/SAFDC #4/std/T2.cpp",
+				"/home/user/projects/Problems/SOJ/2520/P1/ex_sequence1.out",
+				"/home/user/projects/Problems/SOJ/2521/ZHY.txt",
+				"/home/user/projects/Problems/SOJ/2521/YYZ.txt",
+				"/home/user/workspace/zhzx-xiayang/burger/burger.cpp",
+				"/home/user/projects/Problems/SOJ/2521/SG.txt",
+				"/home/user/workspace/zhzx-xiayang/burger/burger.out",
+				"/home/user/workspace/zhzx-xiayang/burger/burger.in",
+				"/home/user/projects/Problems/SOJ/2521/code.py",
+				"/home/user/workspace/zhzx-xiayang/tree/tree.out",
+				"/home/user/workspace/zhzx-xiayang/tree/tree.in",
+				"/home/user/workspace/zhzx-xiayang/burger/BF.cpp",
+				"/home/user/workspace/zhzx-xiayang/tree/tree.cpp",
+				"/home/user/workspace/zhzx-xiayang/tree/tree6.ans",
+				"/home/user/workspace/zhzx-xiayang/tree/tree5.in",
+				"/home/user/workspace/zhzx-xiayang/perm/perm.out",
+				"/home/user/workspace/zhzx-xiayang/perm/perm.in",
+				"/home/user/workspace/zhzx-xiayang/perm/BF.cpp",
+				"/home/user/workspace/zhzx-xiayang/perm/perm.cpp",
+				"/home/user/Downloads/examples/burger5.ans",
+				"/home/user/Downloads/examples/burger4.ans"
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 35.0
 			},
 			"find_in_files":
 			{
@@ -270,6 +1615,134 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"res",
+					"] ",
+					"ft",
+					"n",
+					"tg",
+					"tmp",
+					"tag",
+					"tmp",
+					"int",
+					"sum",
+					"int",
+					"test",
+					"val",
+					"test",
+					"num",
+					"test",
+					"sum",
+					"{\n",
+					"hello",
+					"3000",
+					"cur",
+					"0",
+					"mn",
+					";\n",
+					"n",
+					"t",
+					";\n",
+					"势能分析",
+					"数据结构",
+					"len",
+					"k",
+					"m",
+					"1000",
+					"30",
+					"k",
+					"p",
+					"res",
+					"1ll * T * (a[p[i]] - i)",
+					"tr",
+					"tmp",
+					"int",
+					"tr",
+					"lc",
+					"tr",
+					"p",
+					"rk",
+					"k",
+					"tr.",
+					"tr",
+					"pos",
+					"tr",
+					"j",
+					"len",
+					"k",
+					"int",
+					"k",
+					"r",
+					"k",
+					"int",
+					"t",
+					"k",
+					"0",
+					"tr",
+					"tDr",
+					"inline ",
+					"inline",
+					"namespace",
+					"1e5",
+					"b",
+					"res",
+					"len",
+					"res",
+					"i",
+					"<< ",
+					"m",
+					"1",
+					"M",
+					"id",
+					"void",
+					"N",
+					"双指针",
+					"10.9",
+					"u",
+					"30",
+					"tot",
+					"rt",
+					"tag",
+					"p",
+					"tp",
+					"rt",
+					"id",
+					"pushdown",
+					"tp",
+					"val",
+					"upd",
+					"rt",
+					"tag",
+					"val",
+					"max",
+					"data",
+					"fa",
+					"p",
+					"cout",
+					"res",
+					"son[u]",
+					"v",
+					"u",
+					"i",
+					"sum",
+					"end",
+					"p",
+					"tp",
+					"case1",
+					"W",
+					"0",
+					"W",
+					"v",
+					"val",
+					"2600",
+					"动态规划",
+					"res",
+					"v0",
+					"v1",
+					"6",
+					"i",
+					"6",
+					"]);\n",
+					"5"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -289,7 +1762,7 @@
 			"folders":
 			[
 				{
-					"path": "/home/user/workspace/Code"
+					"path": "/home/user/workspace"
 				}
 			],
 			"groups":
@@ -300,19 +1773,18 @@
 						{
 							"buffer": 0,
 							"file": "/home/user/workspace/Code/code0.cpp",
-							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 626,
+								"buffer_size": 2029,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										246,
-										246
+										1729,
+										1729
 									]
 								],
 								"settings":
@@ -322,39 +1794,34 @@
 									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 2281.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 0,
+							"stack_index": 1,
 							"stack_multiselect": false,
 							"type": "text"
-						}
-					]
-				},
-				{
-					"sheets":
-					[
+						},
 						{
 							"buffer": 1,
-							"file": "/home/user/workspace/Code/test.in",
+							"file": "/home/user/workspace/solutions/26-04-14/CF1810G.md",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 0,
+								"buffer_size": 50,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										50,
+										50
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
+									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -371,12 +1838,47 @@
 					[
 						{
 							"buffer": 2,
+							"file": "/home/user/workspace/Code/test.in",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 48,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										47,
+										47
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"sheets":
+					[
+						{
+							"buffer": 3,
 							"file": "/home/user/workspace/Code/test.out",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 0,
+								"buffer_size": 3,
 								"regions":
 								{
 								},
@@ -404,11 +1906,11 @@
 			],
 			"incremental_find":
 			{
-				"height": 0.0
+				"height": 35.0
 			},
 			"input":
 			{
-				"height": 0.0
+				"height": 54.0
 			},
 			"layout":
 			{
@@ -436,17 +1938,117 @@
 				"cols":
 				[
 					0.0,
-					0.75,
+					0.723487221323,
 					1.0
 				],
 				"rows":
 				[
 					0.0,
-					0.5,
+					0.569762655774,
 					1.0
 				]
 			},
 			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 154.0,
+				"history":
+				[
+					"1",
+					"2",
+					"1",
+					"0",
+					"2",
+					"1",
+					"0",
+					"3",
+					"1",
+					"0",
+					"2",
+					"0",
+					"1",
+					"0",
+					"1",
+					"0",
+					"1",
+					"3",
+					"1",
+					"0",
+					"1",
+					"0",
+					"1",
+					"0",
+					"1",
+					"2",
+					"5",
+					"3",
+					"12",
+					"6",
+					"3",
+					"12",
+					"6",
+					"3",
+					"12",
+					"6",
+					"3",
+					"12",
+					"6",
+					"3",
+					"12",
+					"6",
+					"3",
+					"12",
+					"6",
+					"3",
+					"12",
+					"20",
+					"15",
+					"21",
+					"10",
+					"15",
+					"10",
+					"6",
+					"3",
+					"12",
+					"27",
+					"15",
+					"21",
+					"10",
+					"15",
+					"10",
+					"6",
+					"3",
+					"12",
+					"10",
+					"6",
+					"3",
+					"12",
+					"2",
+					"5",
+					"3",
+					"5",
+					"2",
+					"3",
+					"6",
+					"3",
+					"2",
+					"5",
+					"3",
+					"5",
+					"2",
+					"3",
+					"33",
+					"2",
+					"3",
+					"2",
+					"3",
+					"5",
+					"2",
+					"3",
+					"6",
+					"3"
+				]
+			},
 			"output.find_results":
 			{
 				"height": 0.0,
@@ -459,7 +2061,7 @@
 			"project": "",
 			"replace":
 			{
-				"height": 0.0
+				"height": 66.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -482,12 +2084,12 @@
 			},
 			"select_symbol":
 			{
-				"height": 0.0,
+				"height": 271.0,
 				"last_filter": "",
 				"selected_items":
 				[
 				],
-				"width": 0.0
+				"width": 592.0
 			},
 			"selected_group": 0,
 			"settings":
@@ -497,263 +2099,12 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 197.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 2,
-			"workspace_name": ""
-		},
-		{
-			"auto_complete":
-			{
-				"selected_items":
-				[
-				]
-			},
-			"buffers":
-			[
-				{
-					"file": "/home/user/.config/sublime-text/Packages/User/_Header_.sublime-snippet",
-					"settings":
-					{
-						"buffer_size": 780,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
-						[
-							6,
-							1,
-							"left_delete",
-							null,
-							"AQAAADYAAAAAAAAANgAAAAAAAAASAAAACi8vI2RlZmluZSBGSUxFICIi",
-							"AQAAAAAAAAABAAAASAAAAAAAAAA2AAAAAAAAAP///////+9/"
-						],
-						[
-							11,
-							1,
-							"left_delete",
-							null,
-							"AQAAAAECAAAAAAAAAQIAAAAAAABoAAAACiNlbGlmIGRlZmluZWQoRklMRSkKCWFzc2VydChmcmVvcGVuKEZJTEUiLmluIiwgInIiLCBzdGRpbikpOwoJYXNzZXJ0KGZyZW9wZW4oRklMRSIub3V0IiwgInciLCBzdGRvdXQpKTs",
-							"AQAAAAAAAAABAAAAaQIAAAAAAAABAgAAAAAAAP///////+9/"
-						]
-					]
-				}
-			],
-			"build_system": "",
-			"build_system_choices":
-			[
-			],
-			"build_varint": "",
-			"command_palette":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"console":
-			{
-				"height": 0.0,
-				"history":
-				[
-				]
-			},
-			"distraction_free":
-			{
-				"menu_visible": true,
-				"show_minimap": false,
-				"show_open_files": false,
-				"show_tabs": false,
-				"side_bar_visible": false,
-				"status_bar_visible": false
-			},
-			"expanded_folders":
-			[
-				"/home/user/.config/sublime-text",
-				"/home/user/.config/sublime-text/Packages",
-				"/home/user/.config/sublime-text/Packages/User"
-			],
-			"file_history":
-			[
-				"/home/user/workspace/Code/test.out",
-				"/home/user/workspace/Code/test.in",
-				"/home/user/workspace/Code/code0.cpp",
-				"/home/user/.ssh/id_ed25519.pub",
-				"/home/user/Downloads/install.sh",
-				"/home/user/.local/share/icons/Qogir/index.theme",
-				"/etc/lightdm/lightdm.conf"
-			],
-			"find":
-			{
-				"height": 0.0
-			},
-			"find_in_files":
-			{
-				"height": 0.0,
-				"where_history":
-				[
-				]
-			},
-			"find_state":
-			{
-				"case_sensitive": false,
-				"find_history":
-				[
-				],
-				"highlight": true,
-				"in_selection": false,
-				"preserve_case": false,
-				"regex": false,
-				"replace_history":
-				[
-				],
-				"reverse": false,
-				"scrollbar_highlights": true,
-				"show_context": true,
-				"use_buffer2": true,
-				"use_gitignore": true,
-				"whole_word": false,
-				"wrap": true
-			},
-			"folders":
-			[
-				{
-					"path": "/home/user/.config/sublime-text"
-				}
-			],
-			"groups":
-			[
-				{
-					"sheets":
-					[
-						{
-							"buffer": 0,
-							"file": "/home/user/.config/sublime-text/Packages/User/_Header_.sublime-snippet",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 780,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										201,
-										201
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/XML/XML.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
-					]
-				}
-			],
-			"incremental_find":
-			{
-				"height": 0.0
-			},
-			"input":
-			{
-				"height": 0.0
-			},
-			"layout":
-			{
-				"cells":
-				[
-					[
-						0,
-						0,
-						1,
-						1
-					]
-				],
-				"cols":
-				[
-					0.0,
-					1.0
-				],
-				"rows":
-				[
-					0.0,
-					1.0
-				]
-			},
-			"menu_visible": true,
-			"output.find_results":
-			{
-				"height": 0.0,
-				"history":
-				[
-				]
-			},
-			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,29,1600,872,1600,900,0",
-			"project": "",
-			"replace":
-			{
-				"height": 0.0
-			},
-			"save_all_on_build": true,
-			"select_file":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_project":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_symbol":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"selected_group": 0,
-			"settings":
-			{
-			},
-			"show_minimap": true,
-			"show_open_files": false,
-			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 313.0,
-			"status_bar_visible": true,
-			"template_settings":
-			{
-			},
-			"window_id": 3,
+			"window_id": 15,
 			"workspace_name": ""
 		}
 	],
